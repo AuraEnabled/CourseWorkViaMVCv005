@@ -14,6 +14,7 @@ public class SetHighPriority extends TimerTask {
         this.processes = processes;
     }
 
+
     @Override
     public void run() {
         timer.schedule(new SetHighPriority(processes), 100);
