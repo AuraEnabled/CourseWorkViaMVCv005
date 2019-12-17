@@ -7,7 +7,7 @@ public class RunningProcess extends Thread {
 
     private int index;
 
-    private CreateRunningProcesses createRunningProcesses;
+    public CreateRunningProcesses createRunningProcesses;       //  private
 
 
     RunningProcess(final Process process, final int index, final CreateRunningProcesses createRunningProcesses) {

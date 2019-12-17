@@ -25,6 +25,7 @@ public class Queue {
         queue = new ArrayList<>();
         rejectQueue = new RejectQueue();
         readyQueue = new ReadyQueue();
+        readyQueue.run();
         finishedQueue = new FinishedQueue();
         lastID = 1;
         checkMemory = true;
